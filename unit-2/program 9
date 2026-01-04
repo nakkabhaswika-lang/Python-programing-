@@ -1,0 +1,24 @@
+n = int(input("Enter number of rows: "))
+
+print("\n1. Square Pattern")
+for i in range(n):
+    for j in range(n):
+        print("*", end=" ")
+    print()
+
+print("\n2. Right Angle Triangle")
+for i in range(1, n + 1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
+print("\n3. Inverted Triangle")
+for i in range(n, 0, -1):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
+print("\n4. Pyramid Pattern")
+for i in range(1, n + 1):
+    print(" " * (n - i), end="")
+    print("* " * i)
