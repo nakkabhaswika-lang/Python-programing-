@@ -1,0 +1,8 @@
+def calculate(a, b):
+    return a + b, a - b, a * b
+
+sum, sub, mul = calculate(10, 5)
+
+print("Sum:", sum)
+print("Subtraction:", sub)
+print("Multiplication:", mul)
