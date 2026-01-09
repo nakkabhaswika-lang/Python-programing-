@@ -1,0 +1,6 @@
+def student(name, course="Python"):
+    print("Name:", name)
+    print("Course:", course)
+
+student("Sashank")
+student("Sashank", "Java")
