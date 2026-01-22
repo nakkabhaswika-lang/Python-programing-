@@ -1,0 +1,5 @@
+def operations(a, b):
+    return a+b, a-b, a*b
+
+s, d, m = operations(8, 4)
+print(s, d, m)
