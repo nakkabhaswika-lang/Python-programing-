@@ -1,0 +1,4 @@
+def simple_interest(p, t, r):
+    return (p * t * r) / 100
+
+print(simple_interest(1000, 2, 5))
