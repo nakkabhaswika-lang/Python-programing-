@@ -1,0 +1,6 @@
+import math
+n = input()
+s = 0
+for i in n:
+    s += math.factorial(int(i))
+print("Strong" if s == int(n) else "Not Strong")
