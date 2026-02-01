@@ -1,0 +1,8 @@
+print("1.Add 2.Sub")
+ch = int(input())
+a = int(input())
+b = int(input())
+if ch == 1:
+    print(a+b)
+else:
+    print(a-b)
