@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+
+lcm = max(a, b)
+
+while True:
+    if lcm % a == 0 and lcm % b == 0:
+        print("LCM =", lcm)
+        break
+    lcm += 1
