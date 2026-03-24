@@ -1,0 +1,12 @@
+num = input("Enter number: ")
+
+flag = True
+for ch in num:
+    if ch not in '01':
+        flag = False
+        break
+
+if flag:
+    print("Binary number")
+else:
+    print("Not binary")
